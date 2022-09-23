@@ -50,7 +50,7 @@
     "query-string": "^6.10.1",
     "secp256k1": "^3.8.0",
     "simple-peer": "^9.6.2",
-    "socket.io-client": "^2.3.0",
+    "socket.io-client": "^2.5.0",
     "store": "^2.0.12",
     "underscore": "^1.13.2",
     "uuid": "^3.4.0",
