@@ -97,7 +97,7 @@
     "opn-cli": "^3.1.0",
     "regenerator-runtime": "^0.13.3",
     "rimraf": "^2.7.1",
-    "rollup": "^2.56.2",
+    "rollup": "^3.29.5",
     "rollup-plugin-json": "^3.1.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.1.3",
