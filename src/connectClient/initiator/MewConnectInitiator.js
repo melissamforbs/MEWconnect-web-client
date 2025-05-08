@@ -197,13 +197,8 @@ export default class MewConnectInitiator extends MewConnectCommon {
         this.connId +
         ':name=' +
         dapp.replace(/^www\./, '');
-      if (dapp.includes('myetherwallet.com')) {
-        qrCodeString =
-          this.version + separator + privateKey + separator + this.connId;
-      } else if (dapp.includes('mewbuilds.com')) {
-        qrCodeString =
-          this.version + separator + privateKey + separator + this.connId;
-      } else if (dapp.includes('localhost')) {
+      const allowedHosts = ['myetherwallet.com', 'www.myetherwallet.com', 'mewbuilds.com', 'www.mewbuilds.com', 'localhost'];
+      if (allowedHosts.includes(dapp)) {
         qrCodeString =
           this.version + separator + privateKey + separator + this.connId;
       }
